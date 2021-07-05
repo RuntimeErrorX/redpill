@@ -2134,36 +2134,36 @@ var links = [
         items: [
             {
                 label: 'Github',
-                href: 'https://github.com/DragonBallFinance',
+                href: 'https://github.com/venetianxcapital',
             },
             {
                 label: 'Docs',
-                href: 'https://docs.dragonballfinance.org/',
+                href: 'https://docs.venetianxcapital.org/',
             },
             {
                 label: 'Blog',
-                href: 'https://dragonballfinance.medium.com/',
+                href: 'https://venetianxcapital.medium.com/',
             },
             {
                 label: 'Whitepaper',
-                href: 'https://dragonballfinance.org/Whitepaper.pdf',
+                href: 'https://venetianxcapital.org/Whitepaper.pdf',
             },
         ],
     },
     {
         label: 'Roadmap',
         icon: 'RoadmapIcon',
-        href: 'https://dragonballfinance.org/Roadmap',
+        href: 'https://venetianxcapital.org/Roadmap',
     },
     {
         label: 'DBALL Audit',
         icon: 'AuditIcon',
-        href: 'https://dragonballfinance.org/Dball.pdf',
+        href: 'https://venetianxcapital.org/VenetianX.pdf',
     },
     {
         label: 'SENZU Audit',
         icon: 'AuditIcon',
-        href: 'https://dragonballfinance.org/Senzu.pdf',
+        href: 'https://venetianxcapital.org/VChip.pdf',
     },
 ];
 var socials = [
@@ -2173,11 +2173,11 @@ var socials = [
         items: [
             {
                 label: "Announcement Channel",
-                href: "https://t.me/dragonballfinancenews",
+                href: "https://t.me/venetianxcapitalnews",
             },
             {
                 label: "Chat",
-                href: "https://t.me/dragonballfinance_org",
+                href: "https://t.me/venetianxcapital_org",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2221,23 +2221,23 @@ var socials = [
             // },
             // {
             //  label: "Announcements",
-            //  href: "https://t.me/peachfinanceann",
+            //  href: "https://t.me/venetianxcapitalann",
             //},
             //{
             //  label: "Price Bot",
-            //  href: "https://t.me/BinanceRocketPEACH",
+            //  href: "https://t.me/BinanceRocketVentain",
             //},
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/dragonballdefi",
+        href: "https://twitter.com/CapitalVenetian",
     },
     //  {
     //    label: "Reddit",
     //    icon: "RedditIcon",
-    //    href: "https://www.reddit.com/r/GooseFinanceofficial",
+    //    href: "https://www.reddit.com/r/VenetianCapital",
     //  },
 ];
 var MENU_HEIGHT = 64;
