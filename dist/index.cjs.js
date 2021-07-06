@@ -1874,8 +1874,10 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 170 65" }, props),
-        React__default['default'].createElement("image", { width: "150", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' })));
+    return (React__default['default'].createElement(React__default['default'].Fragment, null,
+        React__default['default'].createElement("img", { src: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png', alt: "logo" }),
+        React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 170 65" }, props),
+            React__default['default'].createElement("image", { width: "150", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' }))));
 };
 
 var Icon$Q = function (props) {
