@@ -1861,10 +1861,8 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(React.Fragment, null,
-        React.createElement("img", { src: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png', alt: "logo" }),
-        React.createElement(Svg, __assign({ viewBox: "0 0 170 65" }, props),
-            React.createElement("image", { width: "150", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' }))));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 170 65" }, props),
+        React.createElement("image", { width: "150", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' })));
 };
 
 var Icon$Q = function (props) {
@@ -2826,20 +2824,24 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#732020",
-    primaryBright: "#D94141",
-    primaryDark: "#0E232E",
-    secondary: "#71AED9",
+    // primary: "#732020",
+    // primaryBright: "#D94141",
+    // primaryDark: "#0E232E",
+    // secondary: "#71AED9",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#F2E8DF", backgroundDisabled: "#F2E8DF", contrast: "#191326", invertedContrast: "#F2BC79", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#732020", textDisabled: "#BDC2C4", textSubtle: "#D94141", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#732020", primaryBright: "#D94141", primaryDark: "#0E232E", secondary: "#71AED9", background: "#F2E8DF", backgroundDisabled: "#F2E8DF", contrast: "#191326", invertedContrast: "#F2BC79", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#732020", textDisabled: "#BDC2C4", textSubtle: "#D94141", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#732020", primaryBright: "#D94141", primaryDark: "#0E232E", secondary: "#71AED9", 
+    //secondary: "#9A6AFF",
+    background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", 
+    //primaryDark: "#0098A1",
+    tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
