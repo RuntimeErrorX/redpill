@@ -353,7 +353,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/egg/logo.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/logo/VenetianX.png" })));
 };
 
 var Icon$r = function (props) {
@@ -1874,8 +1874,8 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 170 65" }, props),
-        React__default['default'].createElement("image", { width: "150", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 180 65" }, props),
+        React__default['default'].createElement("image", { width: "175", height: "60", href: isDark ? '/images/logo/VenetianX Logo - Long Light.png' : '/images/logo/VenetianX Logo - Long Dark.png' })));
 };
 
 var Icon$Q = function (props) {
