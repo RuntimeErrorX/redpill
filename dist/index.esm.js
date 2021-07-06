@@ -1860,9 +1860,8 @@ var Icon$P = function (props) {
 };
 
 var Logo = function (_a) {
-    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 160 135" }, props),
-        React.createElement("image", { width: "150", height: "125", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' })));
+    var isDark = _a.isDark; __rest(_a, ["isDark"]);
+    return (React.createElement("image", { width: "125", height: "60", href: isDark ? '/images/logo/VenetianX.png' : '/images/logo/VenetianX.png' }));
 };
 
 var Icon$Q = function (props) {
