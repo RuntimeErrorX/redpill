@@ -16,7 +16,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   top: 0;
   left: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   flex-shrink: 0;
   background-color: ${({ theme }) => theme.nav.background};
